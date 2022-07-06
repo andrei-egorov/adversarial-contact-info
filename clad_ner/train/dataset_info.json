@@ -1,0 +1,54 @@
+{
+  "builder_name": null,
+  "citation": "",
+  "config_name": null,
+  "dataset_size": null,
+  "description": "",
+  "download_checksums": null,
+  "download_size": null,
+  "features": {
+    "ner_tags": {
+      "feature": {
+        "num_classes": 7,
+        "names": [
+          "O",
+          "B-PHA",
+          "I-PHA",
+          "B-PHO",
+          "I-PHO",
+          "B-OCI",
+          "I-OCI"
+        ],
+        "id": null,
+        "_type": "ClassLabel"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    },
+    "id": {
+      "dtype": "int32",
+      "id": null,
+      "_type": "Value"
+    },
+    "tokens": {
+      "feature": {
+        "dtype": "string",
+        "id": null,
+        "_type": "Value"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": null,
+  "splits": null,
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": null
+}
